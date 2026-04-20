@@ -5,7 +5,7 @@ function SalesInvoiceCard(){
     const [filteredData, setFilteredData] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState("");
     const [categoryNameData,setCategoryNameData]=useState([]);
-    const [total, setTotal] = useState(0);d
+    const [total, setTotal] = useState(0);
     const [searchText, setSearchText] = useState("");
     const [showColumn, setShowColumn] = useState(false);
     const today = new Date();
